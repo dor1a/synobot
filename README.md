@@ -33,19 +33,19 @@
 ## 사용 방법
 
 ### 환경 변수 예시
-\`\`\`env
+``` env
 DC_WEBHOOK_URL="https://discord.com/api/webhooks/xxx/yyy"
 DSM_ID="your_synology_id"
 DSM_PW="your_synology_password"
 DSM_URL="https://your.synology.url"
 DS_PORT="5001"
-\`\`\`
+```
 
 ### 실행
-\`\`\`bash
+``` bash
 docker build -t synobot:latest .
 docker run -d --name synobot synobot:latest
-\`\`\`
+```
 
 ---
 
