@@ -5,7 +5,7 @@
 ### 1. Telegram 제거 → Discord Webhook 기반 알림 전환
 - 기존 Telegram Bot 의존성 제거
 - Discord Webhook을 통한 임베드(embed) 스타일 알림 지원
-- 에러/로그인/다운로드 상태별 색상 표시 (성공: 초록, 에러: 빨강, 대기/일시정지: 파랑)
+- 에러/로그인/다운로드 상태별 색상 표시 (성공: 초록, 에러: 빨강, 대기/일시중지: 파랑)
 
 ### 2. BotConfig.py 리팩토링
 - Telegram 관련 불필요한 환경변수(TG_*) 정리
