@@ -13,8 +13,7 @@ DS_PORT="5001"
 
 ### 실행
 ``` bash
-docker build -t synobot:latest .
-docker run -d --name synobot synobot:latest
+docker run -d --name synobot ghcr.io/dor1a/synobot:latest
 ```
 
 ---
